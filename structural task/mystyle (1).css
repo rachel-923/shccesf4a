@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+}
+header{
+	background-color: #A7BACD;
+	color: white;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding:5px;
+	text-align:center;
+		font-size:30px;
+}
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: auto;
+	width:1000px;
+	text-align:justify;
+	font-size:18px;
+}
+nav{
+	background-color: #C5D1DD;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+a{
+	display:inline-block;
+	color:#89A5CB;
+	background-color:#C5D1DD;
+	padding:5px;
+
+	
+}
+a:hover{
+	background-color:#96A3C7;
+	color:white;
+}
+
+div{
+	display:block;
+	background-color:#798EA4;
+	float:left;
+	width:100px;
+	height:500px;
+}
+article{
+	width:700px;
+	height:500px;
+	float:left;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+footer{
+		display:inline-block;
+	background-color:#BFC7D6;
+	color:#32508E;
+	text-align:center;
+	width:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
